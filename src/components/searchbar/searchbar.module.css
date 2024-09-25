@@ -1,4 +1,9 @@
 
+#inputcontainer {
+    display: flex;
+    align-items: flex-end;
+
+}
 .searchinput {
     width: 60%;
     height: 30px;
@@ -21,4 +26,12 @@
     background-color: #418153 ;
     color: white;
     border: 1px solid white;
+}
+
+.searchicon {
+    width: 30px;
+    height: auto;
+    padding: 0 5px;
+    
+    
 }

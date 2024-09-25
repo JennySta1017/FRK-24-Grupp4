@@ -1,14 +1,18 @@
 import React from "react";
-import styles from "./searchbar.module.css";
+import styles from "./Searchbar.module.css";
 
 const Searchbar = () => {
 
     return (
-    <div>
+    <div id="inputcontainer">
         <input 
         className={styles.searchinput}
         type="text"
         placeholder="Sök" />
+        <img 
+        src="/images/magnifying-glass.png" 
+        alt="magnifying-glass" 
+        className={styles.searchicon} />
         <button className={styles.searchbutton}>
             Sök
         </button>
