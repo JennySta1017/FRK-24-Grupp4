@@ -9,7 +9,7 @@ import image from '@rollup/plugin-image';
 import postcss from 'rollup-plugin-postcss';
 
 export default {
-  input: 'src/index.js', // The entry point for your application
+  input: 'src/main.jsx', // The entry point for your application
   output: [
     {
             file: pkg.main, // Use package.json's "main" for the CommonJS output
