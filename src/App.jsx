@@ -1,12 +1,12 @@
 
 import './App.css'
-import Searchbar from './components/searchbar/searchbar'
+import {SearchBar} from "@jennystarkfrk/components";
 
 function App() {
   
   return (
     <>
-     <Searchbar /> 
+     <SearchBar /> 
     </>
   )
 }
