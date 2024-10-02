@@ -1,14 +1,18 @@
-
+import React from "react";
 import './App.css'
-import {SearchBar} from "@jennystarkfrk/components";
+import {SearchBar, Footer, ContactInfo, ContactLink} from "@jennystarkfrk/components";
 
 function App() {
   
   return (
     <>
-     <SearchBar /> 
+     <SearchBar />
+    <ContactLink />
+     <ContactInfo />
+     <Footer /> 
+     
     </>
   )
 }
 
-export default App
+export default App;
